@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/popup_layout"
+    android:orientation="vertical"
+    android:background="#a7d9a3">
+
+    <ImageButton android:id="@+id/mechanic"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:background="#a7d9a3"
+        android:elevation="4dp"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:src="@drawable/rose"
+        android:layout_marginBottom="20dp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Plant1"
+        android:layout_gravity="center"
+        android:textColor="#826313"
+        android:textStyle="bold"
+        android:textSize="20dp"/>
+
+    <ImageButton android:id="@+id/plumber"
+        android:layout_width="200dp"
+        android:layout_height="150dp"
+        android:layout_marginTop="20dp"
+        android:background="#a7d9a3"
+        android:elevation="4dp"
+        android:layout_gravity="center"
+        android:scaleType="fitCenter"
+        android:adjustViewBounds="true"
+        android:src="@drawable/cactus"
+        android:layout_marginBottom="20dp"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Plant2"
+        android:textColor="#826313"
+        android:layout_gravity="center"
+        android:textStyle="bold"
+        android:textSize="20sp"/>
+
+</LinearLayout>
