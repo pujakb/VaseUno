@@ -34,7 +34,7 @@
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Plant Name"
+            android:text="Name"
             android:textColor="@color/textcolor"/>
 
         <EditText android:id="@+id/etPlantname"
@@ -44,19 +44,48 @@
             android:layout_marginBottom="20dip"
             android:inputType="text"/>
 
-        <!--  Enter Category Label -->
+        <!--  Enter Type Label -->
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:textColor="@color/textcolor"
-            android:text="Category"/>
+            android:text="Type"/>
 
-        <EditText android:id="@+id/etPlantCategory"
+        <EditText android:id="@+id/etType"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dip"
             android:inputType="text"
             android:layout_marginBottom="20dp"/>
+
+        <!-- Enter Moisture Target -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textcolor"
+            android:text="Moisture Target"/>
+
+        <EditText android:id="@+id/etMoistureTarget"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:inputType="number"
+            android:layout_marginBottom="20dp"/>
+
+        <!--Enter sensor Id -->
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textcolor"
+            android:text="Sensor Id"/>
+
+        <EditText android:id="@+id/etSensorId"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:inputType="number"
+            android:layout_marginBottom="20dp"/>
+
 
         <!--Image upload -->
         <TextView
