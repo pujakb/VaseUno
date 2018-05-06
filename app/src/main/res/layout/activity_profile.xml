@@ -24,7 +24,7 @@
             android:textSize="20dp"
             android:layout_gravity="center"/>
         <ImageButton
-            android:id="@+id/user_profile_photo"
+            android:id="@+id/Img_user_profile_photo"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_below="@+id/login_title"
@@ -45,7 +45,7 @@
             android:textStyle="bold" />
 
 
-        <TextView android:id="@+id/nameTextView"
+        <TextView android:id="@+id/tvUsername"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dip"
@@ -60,7 +60,7 @@
             android:textColor="@color/textcolor"
             android:textStyle="bold" />
 
-        <TextView android:id="@+id/emailTextView"
+        <TextView android:id="@+id/tvEmail"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dip"
@@ -75,7 +75,7 @@
             android:text="Contact"
             android:textColor="@color/textcolor"/>
 
-        <TextView android:id="@+id/contactTextView"
+        <TextView android:id="@+id/tvContact"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dip"
@@ -88,10 +88,10 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
-            android:text="Charges"
+            android:text="Device"
             android:textColor="@color/textcolor"/>
 
-        <TextView android:id="@+id/chargesTextView"
+        <TextView android:id="@+id/tvDevice"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dip"
@@ -106,7 +106,7 @@
             android:text="Address"
             android:textColor="@color/textcolor"/>
 
-        <TextView android:id="@+id/addressTextView"
+        <TextView android:id="@+id/tvAddress"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dip"
@@ -114,7 +114,7 @@
             android:textStyle="bold"/>
 
         <!-- Update button -->
-        <Button android:id="@+id/updateButton"
+        <Button android:id="@+id/btnUpdateButton"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dip"
@@ -122,7 +122,7 @@
             android:textColor="@color/buttontextcolor"
             android:background="@drawable/btnshape"/>
         <!-- Back button -->
-        <Button android:id="@+id/backButton"
+        <Button android:id="@+id/BtnbackButton"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dip"

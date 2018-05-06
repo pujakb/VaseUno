@@ -25,7 +25,7 @@
             android:textSize="20dp"
             android:layout_gravity="center"/>
         <ImageButton
-            android:id="@+id/user_profile_photo"
+            android:id="@+id/Img_user_profile_photo"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_below="@+id/login_title"
@@ -45,7 +45,7 @@
             android:textColor="#826313"
             android:text="Full Name"/>
 
-        <EditText android:id="@+id/fullNameEditText"
+        <EditText android:id="@+id/etFullName"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dip"
@@ -59,7 +59,7 @@
             android:textColor="#826313"
             android:text="Contact"/>
 
-        <EditText android:id="@+id/contactEditText"
+        <EditText android:id="@+id/etContact"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dip"
@@ -73,7 +73,7 @@
             android:textColor="#826313"
             android:text="Email"/>
 
-        <EditText android:id="@+id/emailEditText"
+        <EditText android:id="@+id/etEmail"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dip"
@@ -88,7 +88,7 @@
             android:textColor="#826313"
             android:text="Password"/>
 
-        <EditText android:id="@+id/passwordEditText"
+        <EditText android:id="@+id/etPassword"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dip"
@@ -101,14 +101,14 @@
             android:textColor="#826313"
             android:text="Confirm Password"/>
 
-        <EditText android:id="@+id/confirmPasswordEditText"
+        <EditText android:id="@+id/etConfirmPassword"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dip"
             android:inputType="textPassword"/>
 
         <!-- Register button -->
-        <Button android:id="@+id/registerButton"
+        <Button android:id="@+id/BtnRegisterButton"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dip"
@@ -117,7 +117,7 @@
             android:background="@drawable/btnshape"/>
 
         <!-- Login button -->
-        <Button android:id="@+id/loginuserButton"
+        <Button android:id="@+id/BtnloginuserButton"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dip"
