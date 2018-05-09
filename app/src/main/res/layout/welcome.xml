@@ -10,14 +10,11 @@
     android:weightSum="25"
     android:background="#a7d9a3">
 
-
-
     <LinearLayout android:id="@+id/login_linear_layout"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dip">
-
 
         <TextView
             android:id="@+id/tvWelcome"
@@ -30,13 +27,9 @@
             android:textAppearance="@style/TextAppearance.AppCompat.Display2"
             android:textColor="@color/textcolor"
             android:textSize="30dp" />
-        <!--  Name Label -->
 
-        <!--  Enter Category Label -->
 
-        <!--Image upload -->
-
-        <ImageButton
+        <ImageView
             android:id="@+id/plant_photo"
             android:layout_width="100dp"
             android:layout_height="100dp"
@@ -47,7 +40,7 @@
             android:background="#a7d9a3"
             android:elevation="10dp"
             android:scaleType="fitCenter"
-            android:src="@mipmap/vase" />
+            android:src="@drawable/water" />
 
         <!-- Next button -->
         <Button

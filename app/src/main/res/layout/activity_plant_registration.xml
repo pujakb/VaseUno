@@ -11,11 +11,11 @@
     android:background="#a7d9a3">
 
 
-
-    <LinearLayout android:id="@+id/login_linear_layout"
-        android:orientation="vertical"
+    <LinearLayout
+        android:id="@+id/login_linear_layout"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
+        android:orientation="vertical"
         android:padding="10dip">
 
 
@@ -23,99 +23,105 @@
             android:id="@+id/tv_AddNewPlant"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
             android:layout_weight="1"
             android:text="Add New Plant"
-            android:layout_gravity="center"
-            android:textSize="30dp"
             android:textColor="@color/textcolor"
-            android:textStyle="bold"
-            android:layout_marginBottom="20dp"/>
+            android:textSize="30dp"
+            android:textStyle="bold" />
         <!--  Name Label -->
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="Name"
-            android:textColor="@color/textcolor"/>
+            android:textColor="@color/textcolor" />
 
-        <EditText android:id="@+id/etPlantname"
+        <EditText
+            android:id="@+id/etPlantname"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:layout_marginTop="5dip"
             android:layout_marginBottom="20dip"
-            android:inputType="text"/>
+            android:layout_marginTop="5dip"
+            android:inputType="text" />
 
         <!--  Enter Type Label -->
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/textcolor"
-            android:text="Type"/>
+            android:text="Type"
+            android:textColor="@color/textcolor" />
 
-        <EditText android:id="@+id/etType"
+        <EditText
+            android:id="@+id/etType"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
             android:layout_marginTop="5dip"
-            android:inputType="text"
-            android:layout_marginBottom="20dp"/>
+            android:inputType="text" />
 
         <!-- Enter Moisture Target -->
-        <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:textColor="@color/textcolor"
-            android:text="Moisture Target"/>
 
-        <EditText android:id="@+id/etMoistureTarget"
+         <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:text="Moisture Target"
+            android:textColor="@color/textcolor" />
+
+        <EditText
+            android:id="@+id/etMoistureTarget"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
             android:layout_marginTop="5dip"
-            android:inputType="number"
-            android:layout_marginBottom="20dp"/>
+            android:inputType="number" />
 
         <!--Enter sensor Id -->
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/textcolor"
-            android:text="Sensor Id"/>
+            android:text="Sensor Id"
+            android:textColor="@color/textcolor" />
 
-        <EditText android:id="@+id/etSensorId"
+        <EditText
+            android:id="@+id/etSensorId"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:layout_marginBottom="20dp"
             android:layout_marginTop="5dip"
-            android:inputType="number"
-            android:layout_marginBottom="20dp"/>
+            android:inputType="number" />
 
 
         <!--Image upload -->
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:textColor="@color/textcolor"
-            android:text="Image"/>
+            android:text="Image"
+            android:textColor="@color/textcolor" />
 
         <ImageButton
             android:id="@+id/Img_plant_photo"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_centerHorizontal="true"
-            android:layout_marginTop="0dp"
-            android:elevation="10dp"
             android:layout_gravity="center"
-            android:scaleType="fitCenter"
+            android:layout_marginTop="0dp"
             android:adjustViewBounds="true"
             android:background="#a7d9a3"
-            android:src="@drawable/plant"/>
+            android:elevation="10dp"
+            android:scaleType="fitCenter"
+            android:src="@drawable/plant" />
 
         <!-- Add button -->
-        <Button android:id="@+id/BtnAddPlantbutton"
+        <Button
+            android:id="@+id/BtnAddPlantbutton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:layout_marginTop="10dip"
             android:layout_gravity="center"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/btnshape"
             android:text="ADD"
-            android:textColor="@color/buttontextcolor"
-            android:background="@drawable/btnshape"/>
+            android:textColor="@color/buttontextcolor" />
 
     </LinearLayout>
 </ScrollView>

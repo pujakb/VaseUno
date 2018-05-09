@@ -18,13 +18,13 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Your Profile"
+            android:text="Plant Details"
             android:textStyle="bold"
             android:textColor="#826313"
             android:textSize="20dp"
             android:layout_gravity="center"/>
         <ImageButton
-            android:id="@+id/Img_user_profile_photo"
+            android:id="@+id/Img_plant_profile_photo"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_below="@+id/login_title"
@@ -35,7 +35,7 @@
             android:scaleType="fitCenter"
             android:adjustViewBounds="true"
             android:background="#a7d9a3"
-            android:src="@drawable/uicon"/>
+            android:src="@drawable/plant"/>
         <!--  Name Label -->
         <TextView
             android:layout_width="fill_parent"
@@ -52,30 +52,30 @@
             android:layout_marginBottom="20dip"
             android:textStyle="bold"/>
 
-        <!--  Email Label -->
+        <!--  Type Label -->
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:text="Email"
+            android:text="Type"
             android:textColor="@color/textcolor"
             android:textStyle="bold" />
 
-        <TextView android:id="@+id/tvEmail"
+        <TextView android:id="@+id/tvType"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dip"
             android:layout_marginBottom="20dip"
             android:textStyle="bold"/>
 
-        <!--  Contact Label -->
+        <!--  Moisture target Label -->
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:textStyle="bold"
-            android:text="Contact"
+            android:text="Moisture Target"
             android:textColor="@color/textcolor"/>
 
-        <TextView android:id="@+id/tvContact"
+        <TextView android:id="@+id/tvMoistureTarget"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dip"
@@ -83,44 +83,6 @@
             android:layout_marginBottom="20dip"/>
 
 
-        <!--  Device Label -->
-        <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:textStyle="bold"
-            android:text="Device"
-            android:textColor="@color/textcolor"/>
-
-        <TextView android:id="@+id/tvDevice"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dip"
-            android:layout_marginBottom="20dip"
-            android:textStyle="bold"/>
-
-        <!--  Address Label -->
-        <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:textStyle="bold"
-            android:text="Address"
-            android:textColor="@color/textcolor"/>
-
-        <TextView android:id="@+id/tvAddress"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="5dip"
-            android:layout_marginBottom="20dip"
-            android:textStyle="bold"/>
-
-        <!-- Update button -->
-        <Button android:id="@+id/btnUpdateButton"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dip"
-            android:text="Update Profile"
-            android:textColor="@color/buttontextcolor"
-            android:background="@drawable/btnshape"/>
         <!-- Back button -->
         <Button android:id="@+id/BtnbackButton"
             android:layout_width="fill_parent"

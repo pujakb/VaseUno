@@ -31,6 +31,36 @@
             android:textColor="@color/textcolor"
             android:textSize="30dp" />
 
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:text="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="@color/textcolor"
+            android:textSize="30dp"/>
+
+        <CheckBox
+            android:id="@+id/checkBox1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="I agree"
+            android:layout_above="@+id/button"
+            android:layout_centerHorizontal="true" />
+
+        <!-- Next button -->
+        <Button
+            android:id="@+id/btnWelcome"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dip"
+            android:background="@drawable/btnshape"
+            android:text="NEXT"
+            android:textColor="@color/buttontextcolor" />
 
     </LinearLayout>
 </ScrollView>
