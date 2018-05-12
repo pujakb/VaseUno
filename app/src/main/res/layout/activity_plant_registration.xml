@@ -35,7 +35,8 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="Name"
-            android:textColor="@color/textcolor" />
+            android:textColor="@color/textcolor"
+            android:textSize="18sp" />
 
         <EditText
             android:id="@+id/etPlantname"
@@ -50,7 +51,8 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="Type"
-            android:textColor="@color/textcolor" />
+            android:textColor="@color/textcolor"
+            android:textSize="18sp" />
 
         <EditText
             android:id="@+id/etType"
@@ -60,36 +62,35 @@
             android:layout_marginTop="5dip"
             android:inputType="text" />
 
-        <!-- Enter Moisture Target -->
+        <!--&lt;!&ndash; Enter Moisture Target &ndash;&gt;-->
+         <!--<TextView-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Moisture Target"-->
+            <!--android:textColor="@color/textcolor" />-->
 
-         <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="Moisture Target"
-            android:textColor="@color/textcolor" />
+        <!--<EditText-->
+            <!--android:id="@+id/etMoistureTarget"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="20dp"-->
+            <!--android:layout_marginTop="5dip"-->
+            <!--android:inputType="number" />-->
 
-        <EditText
-            android:id="@+id/etMoistureTarget"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
-            android:layout_marginTop="5dip"
-            android:inputType="number" />
+        <!--&lt;!&ndash;Enter sensor Id &ndash;&gt;-->
+        <!--<TextView-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="Sensor Id"-->
+            <!--android:textColor="@color/textcolor" />-->
 
-        <!--Enter sensor Id -->
-        <TextView
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:text="Sensor Id"
-            android:textColor="@color/textcolor" />
-
-        <EditText
-            android:id="@+id/etSensorId"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginBottom="20dp"
-            android:layout_marginTop="5dip"
-            android:inputType="number" />
+        <!--<EditText-->
+            <!--android:id="@+id/etSensorId"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_marginBottom="20dp"-->
+            <!--android:layout_marginTop="5dip"-->
+            <!--android:inputType="number" />-->
 
 
         <!--Image upload -->
@@ -97,7 +98,8 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="Image"
-            android:textColor="@color/textcolor" />
+            android:textColor="@color/textcolor"
+            android:textSize="18sp" />
 
         <ImageButton
             android:id="@+id/Img_plant_photo"
@@ -121,7 +123,8 @@
             android:layout_marginTop="10dip"
             android:background="@drawable/btnshape"
             android:text="ADD"
-            android:textColor="@color/buttontextcolor" />
+            android:textColor="@color/buttontextcolor"
+            android:textSize="18sp" />
 
     </LinearLayout>
 </ScrollView>

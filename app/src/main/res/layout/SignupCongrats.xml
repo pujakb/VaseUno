@@ -10,26 +10,29 @@
     android:weightSum="25"
     android:background="#a7d9a3">
 
+
+
     <LinearLayout android:id="@+id/login_linear_layout"
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:padding="10dip">
 
+
         <TextView
-            android:id="@+id/tvWelcome"
+            android:id="@+id/tvCongrats"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginBottom="20dp"
             android:layout_weight="1"
-            android:text="Welcome"
+            android:text="Congrats!"
+            android:textAlignment="center"
             android:textAppearance="@style/TextAppearance.AppCompat.Display2"
             android:textColor="@color/textcolor"
-            android:textSize="30dp" />
+            android:textSize="30sp" />
 
-
-        <ImageView
+         <ImageView
             android:id="@+id/plant_photo"
             android:layout_width="100dp"
             android:layout_height="100dp"
@@ -42,16 +45,44 @@
             android:scaleType="fitCenter"
             android:src="@drawable/water" />
 
+        <TextView
+            android:id="@+id/tvhello1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:text="Your Account was created with success !"
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="@color/textcolor"
+            android:textSize="24sp" />
+
+        <TextView
+            android:id="@+id/tvhello2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:text="Lets now setup your Vaseuno.."
+            android:textAlignment="center"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="@color/textcolor"
+            android:textSize="24sp" />
+
         <!-- Next button -->
         <Button
-            android:id="@+id/btnWelcome"
+            android:id="@+id/btnCongrats"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_marginTop="10dip"
             android:background="@drawable/btnshape"
-            android:text="NEXT"
-            android:textColor="@color/buttontextcolor" />
+            android:text="Start Setup"
+            android:textAlignment="center"
+            android:textColor="@color/buttontextcolor"
+            android:textSize="18sp" />
 
     </LinearLayout>
 </ScrollView>

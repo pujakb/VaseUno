@@ -15,14 +15,15 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="10dip">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:text="Your Profile"
-            android:textStyle="bold"
             android:textColor="#826313"
-            android:textSize="20dp"
-            android:layout_gravity="center"/>
+            android:textSize="30sp"
+            android:textStyle="bold" />
         <ImageButton
             android:id="@+id/Img_user_profile_photo"
             android:layout_width="100dp"
@@ -42,6 +43,7 @@
             android:layout_height="wrap_content"
             android:text="Name"
             android:textColor="@color/textcolor"
+            android:textSize="18sp"
             android:textStyle="bold" />
 
 
@@ -58,6 +60,7 @@
             android:layout_height="wrap_content"
             android:text="Email"
             android:textColor="@color/textcolor"
+            android:textSize="18sp"
             android:textStyle="bold" />
 
         <TextView android:id="@+id/tvEmail"
@@ -73,7 +76,8 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:text="Contact"
-            android:textColor="@color/textcolor"/>
+            android:textColor="@color/textcolor"
+            android:textSize="18sp"/>
 
         <TextView android:id="@+id/tvContact"
             android:layout_width="fill_parent"
@@ -89,7 +93,8 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:text="Device"
-            android:textColor="@color/textcolor"/>
+            android:textColor="@color/textcolor"
+            android:textSize="18sp"/>
 
         <TextView android:id="@+id/tvDevice"
             android:layout_width="fill_parent"
@@ -104,7 +109,8 @@
             android:layout_height="wrap_content"
             android:textStyle="bold"
             android:text="Address"
-            android:textColor="@color/textcolor"/>
+            android:textColor="@color/textcolor"
+            android:textSize="18sp"/>
 
         <TextView android:id="@+id/tvAddress"
             android:layout_width="fill_parent"
@@ -120,6 +126,7 @@
             android:layout_marginTop="10dip"
             android:text="Update Profile"
             android:textColor="@color/buttontextcolor"
+            android:textSize="18sp"
             android:background="@drawable/btnshape"/>
         <!-- Back button -->
         <Button android:id="@+id/BtnbackButton"
@@ -128,6 +135,7 @@
             android:layout_marginTop="10dip"
             android:text="Back"
             android:textColor="@color/buttontextcolor"
+            android:textSize="18sp"
             android:background="@drawable/btnshape"/>
 
 

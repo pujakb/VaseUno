@@ -16,16 +16,18 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="10dip">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="Sign In"
-            android:textStyle="bold"
+            android:layout_gravity="center"
+            android:text="Welcome to Vaseuno"
             android:textColor="#826313"
-            android:textSize="20dp"
-            android:layout_gravity="center"/>
-        <ImageButton
-            android:id="@+id/Img_user_profile_photo"
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/Logo"
             android:layout_width="100dp"
             android:layout_height="100dp"
             android:layout_below="@+id/login_title"
@@ -36,13 +38,24 @@
             android:scaleType="fitCenter"
             android:adjustViewBounds="true"
             android:background="#a7d9a3"
-            android:src="@drawable/uicon"/>
+            android:src="@drawable/water"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Sign In"
+            android:textStyle="bold"
+            android:textColor="#826313"
+            android:textSize="20dp"
+            android:layout_gravity="center"/>
+
         <!--  Email Label -->
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="Email"
             android:textColor="#826313"
+            android:textSize="18sp"
             android:textStyle="bold" />
 
 
@@ -57,9 +70,10 @@
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:text="Password"
             android:textColor="#826313"
-            android:textStyle="bold"
-            android:text="Password" />
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
         <EditText android:id="@+id/etPassword"
             android:layout_width="fill_parent"
@@ -68,14 +82,17 @@
             android:inputType="textPassword"/>
 
         <!-- Login button -->
-        <Button android:id="@+id/BtnloginButton"
-            android:layout_width="fill_parent"
+        <Button
+            android:id="@+id/BtnloginButton"
+            android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="10dip"
+            android:layout_gravity="center"
+            android:background="@drawable/btnshape"
+            android:gravity="center"
             android:text="Login"
             android:textColor="@color/buttontextcolor"
-
-            android:background="@drawable/btnshape"/>
+            android:textSize="18sp" />
 
         <!-- Link to Registration Screen -->
         <TextView android:id="@+id/link_to_register"

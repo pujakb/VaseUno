@@ -5,22 +5,26 @@
         <item
             android:id="@+id/nav_profile"
             android:title="Profile"
+            android:textSize="18sp"
             android:textColor="#826313"/>
 
         <item
             android:id="@+id/nav_logout"
             android:title="Logout"
+            android:textSize="18sp"
             android:textColor="#826313"/>
 
     </group>
 
     <item android:title="Connect with us"
-        android:textColor="#826313">
+        android:textColor="#826313"
+        android:textSize="18sp">
         <menu>
 
             <item
                 android:id="@+id/nav_add_service"
                 android:title="Add New Plant"
+                android:textSize="18sp"
                 android:textColor="#826313"/>
 
         </menu>

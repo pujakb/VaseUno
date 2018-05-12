@@ -19,11 +19,12 @@
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:text="Sign Up"
-            android:textStyle="bold"
             android:textColor="#826313"
-            android:textSize="20dp"
-            android:layout_gravity="center"/>
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
         <ImageButton
             android:id="@+id/Img_user_profile_photo"
             android:layout_width="100dp"
@@ -42,8 +43,9 @@
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:text="Full Name"
             android:textColor="#826313"
-            android:text="Full Name"/>
+            android:textSize="18sp" />
 
         <EditText android:id="@+id/etFullName"
             android:layout_width="fill_parent"
@@ -57,6 +59,7 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:textColor="#826313"
+            android:textSize="18sp"
             android:text="Contact"/>
 
         <EditText android:id="@+id/etContact"
@@ -64,14 +67,15 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="5dip"
             android:layout_marginBottom="20dip"
-            android:inputType="phone"/>
+            android:inputType="phone" />
 
         <!--  Email Label -->
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:textColor="#826313"
-            android:text="Email"/>
+            android:text="Email"
+            android:textSize="18sp"/>
 
         <EditText android:id="@+id/etEmail"
             android:layout_width="fill_parent"
@@ -86,7 +90,8 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:textColor="#826313"
-            android:text="Password"/>
+            android:text="Password"
+            android:textSize="18sp"/>
 
         <EditText android:id="@+id/etPassword"
             android:layout_width="fill_parent"
@@ -99,7 +104,8 @@
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:textColor="#826313"
-            android:text="Confirm Password"/>
+            android:text="Confirm Password"
+            android:textSize="18sp"/>
 
         <EditText android:id="@+id/etConfirmPassword"
             android:layout_width="fill_parent"
@@ -113,18 +119,10 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="10dip"
             android:text="Register"
+            android:textSize="18sp"
+            android:gravity="center"
             android:textColor="@color/buttontextcolor"
             android:background="@drawable/btnshape"/>
-
-        <!-- Login button -->
-        <Button android:id="@+id/BtnloginuserButton"
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_marginTop="10dip"
-            android:text="Login"
-            android:textColor="@color/buttontextcolor"
-            android:background="@drawable/btnshape"
-            android:layout_marginBottom="20dp"/>
 
     </LinearLayout>
 

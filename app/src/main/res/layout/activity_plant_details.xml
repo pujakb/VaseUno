@@ -15,15 +15,18 @@
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:padding="10dip">
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:text="Plant Details"
-            android:textStyle="bold"
             android:textColor="#826313"
-            android:textSize="20dp"
-            android:layout_gravity="center"/>
-        <ImageButton
+            android:textSize="30sp"
+            android:textStyle="bold" />
+
+        <!--Image should be populated from DB-->
+        <ImageView
             android:id="@+id/Img_plant_profile_photo"
             android:layout_width="100dp"
             android:layout_height="100dp"
@@ -35,13 +38,15 @@
             android:scaleType="fitCenter"
             android:adjustViewBounds="true"
             android:background="#a7d9a3"
-            android:src="@drawable/plant"/>
+            android:src=""/>
+
         <!--  Name Label -->
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:text="Name"
             android:textColor="@color/textcolor"
+            android:textSize="18sp"
             android:textStyle="bold" />
 
 
@@ -58,6 +63,7 @@
             android:layout_height="wrap_content"
             android:text="Type"
             android:textColor="@color/textcolor"
+            android:textSize="18sp"
             android:textStyle="bold" />
 
         <TextView android:id="@+id/tvType"
@@ -67,32 +73,77 @@
             android:layout_marginBottom="20dip"
             android:textStyle="bold"/>
 
-        <!--  Moisture target Label -->
+        <!--  Moisture Label -->
         <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
-            android:textStyle="bold"
-            android:text="Moisture Target"
-            android:textColor="@color/textcolor"/>
+            android:text="Moisture"
+            android:textColor="@color/textcolor"
+            android:textSize="18sp"
+            android:textStyle="bold" />
 
-        <TextView android:id="@+id/tvMoistureTarget"
+        <TextView android:id="@+id/tvMoistureData"
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
             android:layout_marginTop="5dip"
             android:textStyle="bold"
             android:layout_marginBottom="20dip"/>
 
-
-        <!-- Back button -->
-        <Button android:id="@+id/BtnbackButton"
+        <!--  Temperature Label -->
+        <TextView
             android:layout_width="fill_parent"
             android:layout_height="wrap_content"
+            android:text="Temperature"
+            android:textColor="@color/textcolor"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <TextView android:id="@+id/tvTemperatureData"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dip"/>
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:text="Humidity"
+            android:textColor="@color/textcolor"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <!--  Humidity Label -->
+        <TextView android:id="@+id/tvHumidityData"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dip"
+            android:textStyle="bold"
+            android:layout_marginBottom="20dip"/>
+
+        <!--  Result from application -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:text="APPLICATION RESULT"
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="@color/textcolor"
+            android:textSize="24sp" />
+
+        <!-- Back button -->
+        <Button
+            android:id="@+id/BtnbackButton"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
             android:layout_marginTop="10dip"
+            android:background="@drawable/btnshape"
             android:text="Back"
             android:textColor="@color/buttontextcolor"
-            android:background="@drawable/btnshape"/>
-
-
+            android:textSize="18sp" />
 
     </LinearLayout>
 

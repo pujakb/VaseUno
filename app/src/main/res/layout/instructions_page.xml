@@ -37,19 +37,32 @@
             android:layout_gravity="center"
             android:layout_marginBottom="20dp"
             android:layout_weight="1"
-            android:text="aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaa"
+            android:text="1) Make sure to turn on your Vaseuno."
             android:textAppearance="@style/TextAppearance.AppCompat.Display2"
             android:textColor="@color/textcolor"
-            android:textSize="30dp"/>
+            android:textSize="24sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:layout_weight="1"
+            android:text="2) Make sure to turn on the bluetooth of your Smartphone."
+            android:textAppearance="@style/TextAppearance.AppCompat.Display2"
+            android:textColor="@color/textcolor"
+            android:textSize="24sp" />
 
         <CheckBox
             android:id="@+id/checkBox1"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
+            android:layout_above="@+id/button"
+            android:layout_centerHorizontal="true"
             android:layout_gravity="center"
             android:text="I agree"
-            android:layout_above="@+id/button"
-            android:layout_centerHorizontal="true" />
+            android:textColor="@color/textcolor"
+            android:textSize="18sp" />
 
         <!-- Next button -->
         <Button
@@ -57,10 +70,11 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_marginTop="10dip"
+            android:layout_marginTop="100dp"
             android:background="@drawable/btnshape"
             android:text="NEXT"
-            android:textColor="@color/buttontextcolor" />
+            android:textColor="@color/buttontextcolor"
+            android:textSize="18sp" />
 
     </LinearLayout>
 </ScrollView>
